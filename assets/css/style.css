@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-around;
   background-color: white;
+  margin-top: -20px;
 }
 h1 {
   background: #4aaaa5;
@@ -33,14 +34,18 @@ body {
   border: solid lightgrey;
   background-color: white;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
-p{
+p {
   font-family: Arial;
 }
-footer {
-    background:#666666;
- padding: 20px;
+footer,p {
+  background: #666666;
+  padding: 20px;
   height: 95px;
-  width: 940;
+  width: 100%;
   clear: both;
+  border-top: solid #4aaaa5;
+  text-align: center;
+  margin-bottom: -50px;
+}
